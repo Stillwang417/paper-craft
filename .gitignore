@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# 每篇论文的 profile 通常含未发表的内容，默认不提交；只提交模板和虚构示例
+profiles/*
+!profiles/_template.md
+!profiles/示例_电池寿命.md
